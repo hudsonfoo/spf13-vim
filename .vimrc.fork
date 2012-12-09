@@ -19,3 +19,4 @@ set lines=999 columns=999           " set window to full screen
     endif
 " }
 call pathogen#infect()
+au BufEnter /private/tmp/crontab.* setl backupcopy=yes
